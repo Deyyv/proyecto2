@@ -276,6 +276,19 @@ color: #00ffff;
 
 }
 
+.holograma {
+  color: #ccc;
+  font-style: italic;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.holograma:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #0ff;
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
 
     .title {
